@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Quicksand;
+	font-weight: 700;
+	color: #3f3f3f;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
+	background: #e4e4e4;
+}
+
+.nav__item {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	grid-column-start: 2;
+    grid-column-end: 3;
+	align-self: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.list__item {
+	justify-self: center;
+}
+
+.wrapper {
+	display: grid;
+	margin-bottom: 40px;
+}
+
+.wrapper--panel {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 600px;
+}
+
+.card {
+	background: chocolate;
+	display: grid;
+}
+
+.card--darkgray {
+	background: #984b13;
+}
+
+.card--lightgray {
+	background:#da996b;
+}
+
+.card__item {
+	justify-self: center;
+    align-self: end;
+	width: 100px;
+}
+.card__text {
+	margin: 20px;
+	color: #e0e0e0;
+	justify-self: center;
+    align-self: start;
+}
+
+.title {
+	justify-self: center;
+    margin: 40px;
+}
+
+.text-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 40px;
+}
+
+.text {
+	padding: 20px;
+}
+
+.list--section {
+	margin-left: 40px;
+}
+
+.gallery {
+	display: grid;
+	background: #de9723;
+	margin: 0 40px;
+}
+
+.gallery__icon {
+	height: 80px;
+	margin: 20px;
+	justify-self: end;
+}
+
+.form {
+	display: grid;
+	grid-row-gap: 20px;
+	align-self: start;
+}
+
+.input {
+	height: 60px;
+    background: #de9723;
+	border: none;
+	outline: none;
+}
+
+.input--textarea {
+	height: 200px;
+}
+
+.wrapper--form {
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 40px;
+    grid-column-gap: 20px;
+}
+
+.checkbox {
+	display: grid;
+	font-size: 18px;
+	grid-template-columns: 60px auto;
+}
+
+.checkbox__input {
+	opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkbox__styled {
+	width: 25px;
+	height: 25px;
+	border: 2px solid #3f3f3f;
+	margin-left: 20px;
+}
+
+.checkbox__text {
+	align-self: center;
+}
+
+.button {
+	height: 60px;
+    width: 50%;
+    border: none;
+    background: #3f3f3f;
+	align-self: end;
+	justify-self: end;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
+	background: #3f3f3f;
+}
